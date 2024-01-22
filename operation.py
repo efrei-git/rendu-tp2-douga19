@@ -9,7 +9,7 @@ def multiply(a, b):
 
 def divide(a, b):
     try:
-        ret = a / b
+        return a / b
     except ZeroDivisionError:
         print("Division by zero is not allowed")
         return None
