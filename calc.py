@@ -11,6 +11,7 @@ if __name__ == "__main__":
         num1 = int(num1)
         num2 = int(num2)
 
+<<<<<<< HEAD
         if operation == '+':
             print(num1, "+", num2, "=", add(num1, num2))
         elif operation == '-':
@@ -23,3 +24,17 @@ if __name__ == "__main__":
                 print(num1, "/", num2, "=", result)
         else:
             print("Invalid operation")
+=======
+            if operation == '+':
+                print(num1, "+", num2, "=", add(num1, num2))
+            elif operation == '-':
+                print(num1, "-", num2, "=", subtract(num1, num2))
+            elif operation == '*':
+                print(num1, "*", num2, "=", multiply(num1, num2))
+            elif operation == '/':
+                result = divide(num1, num2)
+                if result is not None:
+                    print(num1, "/", num2, "=", result)
+            else:
+                print("Invalid operation")
+>>>>>>> fix-revert
