@@ -17,5 +17,9 @@ from operation import *
                 print(num1, "-", num2, "=", subtract(num1, num2))
             elif operation == '*':
                 print(num1, "*", num2, "=", multiply(num1, num2))
+            elif operation == '/':
+                result = divide(num1, num2)
+                if result is not None:
+                    print(num1, "/", num2, "=", result)
             else:
                 print("Invalid operation")
